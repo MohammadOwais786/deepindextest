@@ -85,7 +85,7 @@ Design and Developed by: iqonicthemes.in
 }
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
@@ -127,7 +127,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: normal;
     color: #333333;
     margin-top: 0px;
@@ -174,7 +174,7 @@ h5 {
 }
 
 h6 {
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     line-height: 28px;
 }
@@ -786,7 +786,7 @@ blockquote {
     font-size: 16px;
     border: none;
     position: relative;
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     display: inline-block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -840,7 +840,7 @@ blockquote {
     border: none;
     position: relative;
     background: #00c8c8;
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     display: inline-block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -868,7 +868,7 @@ blockquote {
     border: none;
     position: relative;
     background: #ffffff;
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     display: inline-block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -896,7 +896,7 @@ blockquote {
     border: 2px solid #00c8c8;
     position: relative;
     background: #ffffff;
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     display: inline-block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -921,7 +921,7 @@ blockquote {
     border: 2px solid #fff;
     position: relative;
     background: transparent;
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     display: inline-block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -946,7 +946,7 @@ blockquote {
     border: 2px solid #00c8c8;
     position: relative;
     background: none;
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     display: inline-block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -2524,7 +2524,7 @@ header .navbar .navbar-nav {
 }
 
 header .navbar .navbar-nav>li {
-    margin: 0 60px 0 0;
+    margin: 0 40px 0 0;
     position: relative;
 }
 
@@ -2535,7 +2535,7 @@ header .navbar .navbar-nav>li:last-child {
 header .navbar .navbar-nav .nav-item a {
     color: #ffffff;
     padding: 10px 0;
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -4606,6 +4606,7 @@ svg #airplain {
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
+    height: 400px;
 }
 
 .iq-works-box .icon-bg {
@@ -5134,7 +5135,7 @@ svg #airplain {
 
 .iq-amazing-tab .nav.nav-tabs li a span {
     font-size: 18px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 600;
     line-height: 40px;
     vertical-align: sub;
@@ -5902,7 +5903,7 @@ svg #airplain {
 }
 
 .iq-team .iq-team-info span {
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 600;
 }
 
@@ -8440,4 +8441,13 @@ svg #airplain {
 .iq-tool-feature {
     margin-top: -100px;
     z-index: -1;
+}
+
+.iq-icon {
+    padding-bottom: 20px;
+}
+
+.display-center {
+    display: flex;
+    justify-content: center;
 }
