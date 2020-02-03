@@ -381,13 +381,13 @@ $(document).ready(function() {
             }
         });
 
-        if (grecaptcha.getResponse() == "") {
-            flag = 1;
-            alert('Please verify Recaptch');
+        // if (grecaptcha.getResponse() == "") {
+        //     flag = 1;
+        //     alert('Please verify Recaptch');
 
-        } else {
-            flag = 0;
-        }
+        // } else {
+        //     flag = 0;
+        // }
 
         if (flag == 0) {
             $.ajax({
