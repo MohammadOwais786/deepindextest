@@ -396,7 +396,7 @@ $(document).ready(function() {
                     data: $("#contact").serialize() // it will serialize the form data
                 })
                 .done(function(data) {
-                    $("#result").html('Form was successfully submitted.');
+                    $("#success").alert();
                     $('#contact')[0].reset();
                 })
                 .fail(function() {
