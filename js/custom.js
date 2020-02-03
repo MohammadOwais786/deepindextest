@@ -392,7 +392,7 @@ $(document).ready(function() {
 
         if (flag == 0) {
             $.ajax({
-                    url: 'https://getsimpleform.com/messages?form_api_token=306c37257a28fedbb769d4e6abef2aef',
+                    url: 'https://formspree.io/mayooyke',
                     type: 'POST',
                     data: $("#contact").serialize() // it will serialize the form data
                 })
