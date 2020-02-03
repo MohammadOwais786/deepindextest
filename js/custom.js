@@ -31,6 +31,7 @@ Index Of Script
 
 $(document).ready(function() {
 
+
     /*------------------------
     Page Loader
     --------------------------*/
@@ -396,8 +397,8 @@ $(document).ready(function() {
                     data: $("#contact").serialize() // it will serialize the form data
                 })
                 .done(function(data) {
-                    $("#success").alert();
                     $('#contact')[0].reset();
+                    $(".alert").show();                   
                 })
                 .fail(function() {
                     alert('Ajax Submit Failed ...');
