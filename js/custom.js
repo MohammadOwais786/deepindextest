@@ -391,18 +391,18 @@ $(document).ready(function() {
         // }
 
         if (flag == 0) {
-            $.ajax({
-                    url: 'https://formspree.io/mayooyke',
-                    type: 'POST',
-                    data: $("#contact").serialize() // it will serialize the form data
-                })
-                .done(function(data) {
-                    $('#contact')[0].reset();
-                    $(".alert").show();                   
-                })
-                .fail(function() {
-                    alert('Ajax Submit Failed ...');
-                });
+            // $.ajax({
+            //         url: 'https://formspree.io/mayooyke',
+            //         type: 'POST',
+            //         data: $("#contact").serialize() // it will serialize the form data
+            //     })
+            //     .done(function(data) {
+            //         $('#contact')[0].reset();
+            //         $(".alert").show();                   
+            //     })
+            //     .fail(function() {
+            //         alert('Ajax Submit Failed ...');
+            //     });
         }
 
     });
